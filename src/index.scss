@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.App {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenedor-app {
+  flex-flow: column;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: rgb(161, 161, 161);
+    font-size: 1rem;
+  }
+}
